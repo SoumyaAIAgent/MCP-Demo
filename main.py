@@ -16,3 +16,7 @@ def main():
             connection.handle_packets()
             
     except Exception as e:
+         print(f"Error starting server: {e}")
+
+if __name__ == "__main__":
+    main()
